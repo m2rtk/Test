@@ -5,7 +5,7 @@ deploy:
           on:
                   all_branches: true
 after_success:
-        "whereis curl"
+        "chmod +x deploy.sh"
 env:
   global:
   - secure: MePnLwjw5Ju4m2dPIkGoTD8rB5O94ZXCnWp9OGxlIhHCO7ZfLaTe+Ul3oz6E3T4TN2EZlYRRB7b6AnTa6UadZQuhgdsWqEIgOT0/oZsAwJhw1xzz+PVtQ7l9WQ45rGn3fksVNhWTMs8EFpJueJRmwb+4Fgw0fGhsQFmcJ/fWW3lne7Moe02JQPPWionrsgnpa+pM2V7qtqEHp+cYkB+Jv6yAgafBVOoZGL4t12g1qPAD3Ryxz2nCHiIBZirjt/7hYcbv9aYSRpBd4fguaPmqlaWQQf4b3FyzxWhzQcFGRlztQ4tYvOWWZ/FcJsJNvz7GRuoMlD8dZSQBeJZm1bwdZpAPWnP/gSbYzYCvKDWtAOa9JN0Pmlo1MZbKelweAM0h2quxeVvNwT21aRVACDKe6R9w4h5r4LT4EdSokrvE/H8bOT+9fnac7vvSy7RXXPQmuBNUQeDWEzZNzAqRFS5adS1ksg40921XyWKHChJ5hKD4Wag86CFw4OubSCP3BolGkvasX+2FEl75wamwyNBpVI/Oy/ZDL1t2Q1qx5HHsCz8vkLPWB1acKlYIZpwszCUYOy7kyVupBXkANgvP0m5vmsS/7ICzRwo0mlH8XtobsSptjKAvOt6u4HLLUMW1QcPlDdd2zWsgHoxUN9hWLKj99ceSdCawluyorVuCEdIBp7Y=
