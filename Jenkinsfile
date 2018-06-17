@@ -9,7 +9,7 @@ pipeline {
         sh 'mvn compile'
       }
     }
-    stage('compile') {
+    stage('test') {
       tools {
         maven 'Maven 3.5.3'
       }
@@ -17,7 +17,7 @@ pipeline {
         sh 'mvn test'
       }
     }
-    stage('compile') {
+    stage('package') {
       tools {
         maven 'Maven 3.5.3'
       }
